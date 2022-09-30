@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FitMeClub</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../img/logo.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="premium.css" rel="stylesheet">
+    <link href="../shared.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Ms Madi' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+</head>
+<body>
+    <div class="backdrop"></div>
+    <div class="sign-in-modal">
+        <h3 class="signin__title">Enter your credentials: </h3>
+        <div class="signin_actions">
+            <form class="modal-signin-form">
+                <label for="email"> Email ID: </label>
+                <input type="email" id="sign-in-email">
+                <label for="password"> Password: </label>
+                <input type="password" id="password">
+                <button type="submit" class="modal-button">Sign In</button>
+            </form>  
+        </div>
+    </div>
+    <div class="register-modal">
+        <h3 class="register__title">Please fill in the details: </h3>
+        <div class="register__actions">
+            <form class="modal-register-form">
+                    <label for="fname"> First Name: </label>
+                    <input type="text" id="fname"> 
+                
+                    <label for="lname"> Last Name: </label>
+                    <input type="text" id="fname">
+                
+                    <label for="email"> Email ID: </label>
+                    <input type="email" id="sign-in-email">
+                
+                    <label for="password"> Password: </label>
+                    <input type="password" id="password">
+                
+                    <label for="password"> Confirm Your Password: </label>
+                    <input type="password" id="password">
+                <div class="chbox">
+                    <input type="checkbox" id="checkbox" required>
+                    <label> By signing up, I agree to the terms & conditions.</label>
+                </div>
+                <button type="submit" class="modal-button">Register</button>
+            </form>  
+        </div>
+    </div>
+    <header class="main-header">
+        <div>
+            <a href="../index.html" class="main-header__brand">
+                <img src="../img/logo.jpg" alt="logo">
+            </a>
+        </div>
+        <nav class="navbar">
+            <ul class="navbar-items">
+                <li class="navbar__item">
+                    <a href="../index.html">HOME</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="index.html">PREMIUM</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../sessions/index.html">SESSIONS</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../contactus/index.html">CONTACT US</a>
+                </li>
+
+                <li class=" navbar__item sign-in">
+                    <button type="button" class="nav_btn sgn">Sign In</button>
+                </li>
+                <li class="navbar__item register">
+                    <button type="button" class="nav_btn reg">Register</button>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="section-img">
+            <h1>Choose your plan</h1>
+        </section>
+        <section class="clear">
+            <h1>clear</h1>
+        </section>
+        <section class="plans">
+            <div class="plan__list">
+                <article class="plan plan1">
+                    <ul>
+                    <li class="fitme">FitMeClub</li>
+                    <li class="type">PRO</li>
+                    <li>Starting at RsXXX/per month</li>
+                    <li> <a href="#proid"><button type="button" class="learn">LEARN MORE</button></a></li>
+                    </ul>
+                    
+                </article>
+                <article class="plan plan2">
+                    <ul>
+                        <li class="fitme">FitMeClub</li>
+                        <li class="type">ELITE</li>
+                        <li>Starting at RsXXX/per month</li>
+                        <li> <a href="#eliteid"><button type="button" class="learn">LEARN MORE</button></a></li>
+                        </ul>
+                </article>
+                <article class="plan plan3">
+                    <ul>
+                        <li class="fitme">FitMeClub</li>
+                        <li class="type">LIVE</li>
+                        <li>Starting at RsXXX/per month</li>
+                        <li> <a href="#liveid"><button type="button" class="learn">LEARN MORE</button></a></li>
+                        </ul>
+                </article>
+            </div>
+        </section>
+       
+        <section class="sec">
+            <h6>.</h6>
+        <section class="elite" id="eliteid">
+        
+            <div><img src="img/elite.jpg"></div>
+            <div class="elite-plan">
+            <ul class="elite-plan-list">
+                <li class="name">ELITE</li>
+                <li class="access">Unlimited access to:</li>
+                <li class="d"> Access to PRO & ELITE Gyms </li>
+                <li class="d"> Access to all masterclasses and at-home live sessions</li>
+                <li class="d"> Personalized training from certified trainer </li>
+                <li class="d"> Regular progress monitoring </li>
+            </ul>
+            <h3> Starting at Rs 898/month </h3>
+            <button type="button" class="buy"> BUY NOW </button>
+            </div>
+        
+
+        </section>
+        <section class="pro" id="proid">
+        
+            <div><img src="img/pro.jpg"></div>
+            <div class="pro-plan">
+            <ul class="pro-plan-list">
+                <li class="name">PRO</li>
+                <li class="access"a>Unlimited access to:</li>
+                <li class="d"> Access to PRO Gyms </li>
+                <li class="d"> Access to all masterclasses and at-home live sessions</li>
+                <li class="d"> 2 sessions/month at ELITE Gyms </li>
+                <li class="d"> Personalized training from certified trainer </li>
+            </ul>
+            <h3> Starting at Rs 498/month </h3>
+            <button type="button" class="buy"> BUY NOW </button>
+            </div>
+        
+        </section>
+        <div class="clearfix"></div>
+        <section class="live" id="liveid">
+        
+            <div> <img src="img/live.jpg"> </div>
+            <div class="live-plan">
+            <ul class="live-plan-list">
+                <li class="name">LIVE</li>
+                <li class="access">Unlimited access to:</li>
+                <li class="d"> Access to all celebrity masterclasses</li>
+                <li class="d"> Access to at-home live workouts</li>
+                <li class="d"> 2 sessions/month at PRO Gyms </li>
+            </ul>
+            <h3> Starting at Rs 298/month </h3>
+            <button type="button" class="buy"> BUY NOW </button>
+            </div>
+        
+        </section>
+        </section>
+        <!-- <section class="free-trial">
+            <div class="free">
+                <h1 class="cleartop">.</h1> 
+            <h1> Start your free trial NOW! </h1>
+            <h3> Access to all PRO and LIVE benefits for 15 days! </h3>
+            <h4> Applicable for LIMITED TIME only!</h4>
+            <button type="button" class="start">START</button>
+            </div>
+
+        </section> -->
+    </main>
+    <footer class="main-footer">
+        <nav>
+            <ul class="main-footer__links">
+                <li class="main-footer__link">
+                    <a href="#">Support</a>
+                </li>
+                <li class="main-footer__link">
+                    <a href="#">Terms of Use</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="../shared.js"></script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FitMeClub</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../img/logo.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="contactus.css" rel="stylesheet">
+    <link href="../shared.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Ms Madi' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+</head>
+
+<body>
+    <div class="backdrop"></div>
+    <div class="contact-modal">
+        <h3 class="contact__title"> Submitted successfully, our team will get in touch with you shortly. Thanks for your time!</h3>
+        <div class="contact_actions">
+            <button type="submit" class="ok-button">OK</button>
+        </div>
+    </div>
+    <div class="sign-in-modal">
+        <h3 class="signin__title">Enter your credentials: </h3>
+        <div class="signin_actions">
+            <form class="modal-signin-form">
+                <label for="email"> Email ID: </label>
+                <input type="email" id="sign-in-email">
+                <label for="password"> Password: </label>
+                <input type="password" id="password">
+                <button type="submit" class="modal-button">Sign In</button>
+            </form>  
+        </div>
+    </div>
+    <div class="register-modal">
+        <h3 class="register__title">Please fill in the details: </h3>
+        <div class="register__actions">
+            <form class="modal-register-form">
+                    <label for="fname"> First Name: </label>
+                    <input type="text" id="fname"> 
+                
+                    <label for="lname"> Last Name: </label>
+                    <input type="text" id="fname">
+                
+                    <label for="email"> Email ID: </label>
+                    <input type="email" id="sign-in-email">
+                
+                    <label for="password"> Password: </label>
+                    <input type="password" id="password">
+                
+                    <label for="password"> Confirm Your Password: </label>
+                    <input type="password" id="password">
+                <div class="chbox">
+                    <input type="checkbox" id="checkbox" required>
+                    <label> By signing up, I agree to the terms & conditions.</label>
+                </div>
+                <button type="submit" class="modal-button">Register</button>
+            </form>  
+        </div>
+    </div>
+    <header class="main-header">
+        <div>
+            <a href="../index.html" class="main-header__brand">
+                <img src="../img/logo.jpg" alt="logo">
+            </a>
+        </div>
+        <nav class="navbar">
+            <ul class="navbar-items">
+                <li class="navbar__item">
+                    <a href="../index.html">HOME</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../premium/index.html">PREMIUM</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../sessions/index.html">SESSIONS</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="index.html">CONTACT US</a>
+                </li>
+
+                <li class=" navbar__item sign-in">
+                    <button type="button" class="nav_btn sgn">Sign In</button>
+                </li>
+                <li class="navbar__item register">
+                    <button type="button" class="nav_btn reg">Register</button>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="main-sec">
+            <h1 class="main-head"> CONTACT & SUPPORT </h1>
+        </section>
+        <div class="issue">
+            <h3> REPORT AN ISSUE</h3>
+            <p>To report an issue, mail us at fitmeclub@gmail.com or call us at 999999999</p>
+        </div>
+        <div class="contact">
+            <h3>CONTACT US</h3>
+            <p>To contact us about general queries, kindly fill the given form. Our team will get in touch with you
+                shortly!</p>
+            <form class="form">
+
+                <label for="fname">First Name: </label>
+                <input type="text" id="fname">
+
+                <label for="lname">Last Name: </label>
+                <input type="text" id="lname">
+
+                <label for="email"> Email ID: </label>
+                <input type="email" id="email">
+
+
+                <label for="phone"> Contact No: </label>
+                <input type="text" id="phone">
+
+                <button type="button" class="contact-button cnt">Submit</button>
+
+            </form>
+        </div>
+        <div class="join">
+            <h3> JOIN US!</h3>
+            <p> To join us, kindly fill this form and send us your resumes at hiringfitmeclub@gmail.com.</p>
+            <form class="form">
+
+                <label for="fname">First Name: </label>
+                <input type="text" id="fname">
+
+                <label for="lname">Last Name: </label>
+                <input type="text" id="lname">
+
+                <label for="gender">Gender: </label>
+                <div class="radio">
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                
+                <input type="radio" id="female" class="fem" name="gender" value="female">
+                <label for="female" class="fem">Female</label>
+                
+                </div>
+            
+
+                <label for="email"> Email ID: </label>
+                <input type="email" id="email">
+
+
+                <label for="phone"> Contact No: </label>
+                <input type="text" id="phone">
+
+                <label for="role">Choose the role you wish to apply for: </label>
+                <select id="role" name="role">
+                    <option value="choose-role">Choose role</option>
+                    <option value="dance-trainer">Dance Trainer</option>
+                    <option value="yoga-trainer">Yoga Trainer</option>
+                    <option value="gym-trainer">Gym Trainer</option>
+                    <option value="acrobats-trainer">Acrobats Trainer</option>
+                    <option value="management">Management</option>
+
+                </select>
+
+                <button type="button" class="contact-button cnt">Submit</button>
+
+            </form>
+        </div>
+
+    </main>
+    <footer class="main-footer">
+        <nav>
+            <ul class="main-footer__links">
+                <li class="main-footer__link">
+                    <a href="#">Support</a>
+                </li>
+                <li class="main-footer__link">
+                    <a href="#">Terms of Use</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="../shared.js"></script>
+    <script src="contact.js"></script>
+</body>
+
+</html>

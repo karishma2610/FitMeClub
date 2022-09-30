@@ -1,0 +1,103 @@
+main{
+    background:black;
+}
+.head{
+    background: rgb(21, 21, 27);
+    color:white;
+    text-align:center;
+    margin-top:100px;
+    margin-bottom:0;
+    padding:3rem;
+    font-family: 'Ms Madi';
+    font-size:5rem;
+    text-shadow: 2px white;
+}
+.at-home-sessions{
+    background:black;
+    height:450px;
+    align-items:center;
+    display:grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 25rem;
+    justify-items: center;
+    justify-content:center;
+}
+.button{
+    position: relative;
+    top: -58px;
+    left: 715px;
+}
+.button{
+    padding:15px;
+    border:0px;
+    box-shadow:2px 2px 2px 2px rgba(197, 202, 198, 0.5);
+    /* display:inline-block; */
+    background:white;
+    color:rgb(74, 77, 74);
+    border-radius:10px;
+    font:inherit;
+    font-weight:bold;
+    cursor:pointer;
+}
+.button:hover,
+.button:active{
+background:rgb(74, 77, 74);
+color:white;
+}
+.button:focus{
+outline-style:dotted;
+outline-color:lightblue;
+box-shadow:rgb(177, 177, 231);
+background:hsl(136, 47%, 70%);
+color:rgb(15, 14, 14);
+}
+video{
+    border-radius:12px;
+    border:2px solid white;
+}
+video:hover, video:focus{
+    box-shadow:2px 2px 2px 2px rgba(241, 245, 242, 0.5);
+    height:300px;
+    width:300px;
+}
+.hd{
+    text-align:center;
+    align-items:center;
+    background:url('../img/trainers-bg.jpg');
+    margin-top:-34px;
+    margin-bottom:0;
+    padding:2rem;
+}
+.group-classes{
+    background:black;
+    height:450px;
+    align-items:center;
+    display:grid;
+    grid-template-columns: 3;
+    grid-auto-flow: column;
+    grid-auto-columns: 25rem;
+    justify-items: center;
+    justify-content:center;
+}
+.celebrity-sessions{
+    background:black;
+    height:450px;
+    align-items:center;
+    display:grid;
+    grid-template-columns: 3;
+    grid-auto-flow: column;
+    grid-auto-columns: 25rem;
+    justify-items: center;
+    justify-content:center;
+}
+.dance-sessions{
+    background:black;
+    height:450px;
+    align-items:center;
+    display:grid;
+    grid-template-columns: 3;
+    grid-auto-flow: column;
+    grid-auto-columns: 25rem;
+    justify-items: center;
+    justify-content:center;
+}

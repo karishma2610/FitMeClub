@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FitMeClub</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../img/logo.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="sessions.css" rel="stylesheet">
+    <link href="../shared.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Ms Madi' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+</head>
+<body>
+    <div class="backdrop"></div>
+    <div class="sign-in-modal">
+        <h3 class="signin__title">Enter your credentials: </h3>
+        <div class="signin_actions">
+            <form class="modal-signin-form">
+                <label for="email"> Email ID: </label>
+                <input type="email" id="sign-in-email">
+                <label for="password"> Password: </label>
+                <input type="password" id="password">
+                <button type="submit" class="modal-button">Sign In</button>
+            </form>  
+        </div>
+    </div>
+    <div class="register-modal">
+        <h3 class="register__title">Please fill in the details: </h3>
+        <div class="register__actions">
+            <form class="modal-register-form">
+                    <label for="fname"> First Name: </label>
+                    <input type="text" id="fname"> 
+                
+                    <label for="lname"> Last Name: </label>
+                    <input type="text" id="fname">
+                
+                    <label for="email"> Email ID: </label>
+                    <input type="email" id="sign-in-email">
+                
+                    <label for="password"> Password: </label>
+                    <input type="password" id="password">
+                
+                    <label for="password"> Confirm Your Password: </label>
+                    <input type="password" id="password">
+                <div class="chbox">
+                    <input type="checkbox" id="checkbox" required>
+                    <label> By signing up, I agree to the terms & conditions.</label>
+                </div>
+                <button type="submit" class="modal-button">Register</button>
+            </form>  
+        </div>
+    </div>
+    <header class="main-header">
+        <div>
+            <a href="../index.html" class="main-header__brand">
+                <img src="../img/logo.jpg" alt="logo">
+            </a>
+        </div>
+        <nav class="navbar">
+            <ul class="navbar-items">
+                <li class="navbar__item">
+                    <a href="../index.html">HOME</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../premium/index.html">PREMIUM</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="index.html">SESSIONS</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../contactus/index.html">CONTACT US</a>
+                </li>
+
+                <li class=" navbar__item sign-in">
+                    <button type="button" class="nav_btn sgn">Sign In</button>
+                </li>
+                <li class="navbar__item register">
+                    <button type="button" class="nav_btn reg">Register</button>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="head">Don't let fitness stop!</h1>
+        <h1 class="hd"> AT-HOME SESSIONS</h1>
+        <section class="at-home-sessions">
+            <video height="180px" width="300px" controls>
+                <source src="videos/at-home1.mp4" type="video/mp4">
+            </video>
+            <video height="180px" width="300px" controls>
+                <source src="videos/at-home2.mp4" type="video/mp4">
+            </video>
+            <video height="180px" width="300px" controls>
+                <source src="videos/at-home3.mp4" type="video/mp4">
+            </video>
+        </section>
+        <a href="../premium/index.html">
+            <button type="submit" class="button">MORE...</button>
+        </a>        
+        <h1 class="hd"> TRAINER-LED GROUP CLASSES </h1>
+        <section class="group-classes">
+            <video height="180px" width="300px" controls>
+                <source src="videos/group1.mp4" type="video/mp4">
+            </video>
+            <video height="180px" width="300px" controls>
+                <source src="videos/group2.mp4" type="video/mp4">
+            </video>
+            <video height="180px" width="300px" controls>
+                <source src="videos/group3.mp4" type="video/mp4">
+            </video>
+        </section>
+        <a href="../premium/index.html">
+            <button type="submit" class="button">MORE...</button>
+        </a> 
+        <h1 class="hd"> CELEBRITY SESSIONS </h1>
+        <section class="celebrity-sessions">
+            <video height="180px" width="300px" controls>
+                <source src="videos/celebrity1.mp4" type="video/mp4">
+            </video>
+            <video height="180px" width="300px" controls>
+                <source src="videos/celebrity2.mp4" type="video/mp4">
+            </video>
+            <video height="180px" width="300px" controls>
+                <source src="videos/celebrity3.mp4" type="video/mp4">
+            </video>
+        </section>
+        <a href="../premium/index.html">
+            <button type="submit" class="button">MORE...</button>
+        </a> 
+        <h1 class="hd"> DANCE SESSIONS </h1>
+        <section class="dance-sessions">
+            <video height="180px" width="300px" controls>
+                <source src="videos/dance1.mp4" type="video/mp4">
+            </video>
+            <video height="180px" width="300px" controls>
+                <source src="videos/dance2.mp4" type="video/mp4">
+            </video>
+            <video height="180px" width="300px" controls>
+                <source src="videos/dance3.mp4" type="video/mp4">
+            </video>
+        </section>
+        <a href="../premium/index.html">
+            <button type="submit" class="button">MORE...</button>
+        </a> 
+    </main>
+    <footer class="main-footer">
+        <nav>
+            <ul class="main-footer__links">
+                <li class="main-footer__link">
+                    <a href="#">Support</a>
+                </li>
+                <li class="main-footer__link">
+                    <a href="#">Terms of Use</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="../shared.js"></script>
+    
+</body>
+</html>

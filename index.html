@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FitMeClub</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/logo.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="main.css" rel="stylesheet">
+    <link href="shared.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Ms Madi' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+</head>
+
+<body>
+    <div class="backdrop"></div>
+    <div class="sign-in-modal">
+        <h3 class="signin__title">Enter your credentials: </h3>
+        <div class="signin_actions">
+            <form class="modal-signin-form">
+                <label for="email"> Email ID: </label>
+                <input type="email" id="sign-in-email">
+                <label for="password"> Password: </label>
+                <input type="password" id="password">
+                <button type="submit" class="modal-button">Sign In</button>
+            </form>  
+        </div>
+    </div>
+    <div class="register-modal">
+        <h3 class="register__title">Please fill in the details: </h3>
+        <div class="register__actions">
+            <form class="modal-register-form">
+                    <label for="fname"> First Name: </label>
+                    <input type="text" id="fname"> 
+                
+                    <label for="lname"> Last Name: </label>
+                    <input type="text" id="fname">
+                
+                    <label for="email"> Email ID: </label>
+                    <input type="email" id="sign-in-email">
+                
+                    <label for="password"> Password: </label>
+                    <input type="password" id="password">
+                
+                    <label for="password"> Confirm Your Password: </label>
+                    <input type="password" id="password">
+                <div class="chbox">
+                    <input type="checkbox" id="checkbox" required>
+                    <label> By signing up, I agree to the terms & conditions.</label>
+                </div>
+                <button type="submit" class="modal-button">Register</button>
+            </form>  
+        </div>
+    </div>
+    <header class="main-header">
+        <div>
+            <a href="index.html" class="main-header__brand">
+                <img src="img/logo.jpg" alt="logo">
+            </a>
+        </div>
+        <nav class="navbar">
+            <ul class="navbar-items">
+                <li class="navbar__item">
+                    <a href="index.html">HOME</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="premium/index.html">PREMIUM</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="sessions/index.html">SESSIONS</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="contactus/index.html">CONTACT US</a>
+                </li>
+
+                <li class=" navbar__item sign-in">
+                    <button type="button" class="nav_btn sgn">Sign In</button>
+                </li>
+                <li class="navbar__item register">
+                    <button type="button" class="nav_btn reg">Register</button>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="description-image">
+            <h1>“All progress takes place outside the comfort zone.”</h1>
+        </section>
+        <section class="about-us">
+            <div>
+                <h1>ABOUT US</h1>
+                <div class="about-us-image">
+                    <img src="img/about-us-image.jpg" alt="about us">
+                </div>
+                <p class="about-desc"> We strive to provide the greatest tools, a wide variety of classes, competent
+                    personnel, and individualised guidance in a friendly setting. We are aware of how crucial creating a
+                    positive culture is. We believe in encouraging, supporting, challenging, learning and growing to be
+                    the best! 
+                    We are an ambitious firm and are always searching for exceptional people to join our team, from
+                    personal trainers, group fitness instructors, club managers, to our front-of-house employees. For
+                    those who are interested in working with us, please know that we are an open-minded organisation.
+                    We're committed to training, so you'll be urged to sharpen your already acquired abilities as you
+                    learn new ones.
+                    Contact us at fitmeclub@gmail.com.
+                </p>
+            </div>
+        </section>
+        <section class="trainers">
+            <h1> MEET OUR TOP TRAINERS </h1>
+            <ul class="trainers-list">
+                <li class="trainer">
+                    <div class="trainer__image">
+                        <img src="img/trainer1.jpg">
+                    </div>
+                    <h3 class="triner1__name">Siddharth Malhotra</h3>
+                    <p class="trainer1__description">Hi guys, Sid here! A fitness trainer by profession, love playing
+                        sports and also chit chatting! ;)</p>
+                </li>
+                <li class="trainer">
+                    <div class="trainer__image">
+                        <img src="img/trainer2.jpg">
+                    </div>
+                    <h3 class="triner2__name">Kriti Sanon</h3>
+                    <p class="trainer2__description">Hola folks, I'm Kriti. I love dancing, acrobats and gymnastics! So
+                        come on, join us and have funnn! </p>
+                </li>
+                <li class="trainer">
+                    <div class="trainer__image">
+                        <img src="img/trainer3.jpg">
+                    </div>
+                    <h3 class="triner3__name">Varun Dhawan</h3>
+                    <p class="trainer3__description">Hey guys, my name is Varun and I'm a gym trainer. I'm into fitness
+                        and in diet planning! </p>
+                </li>
+            </ul>
+
+        </section>
+        <section class="space">
+            <h1> OUR SPACE </h1>
+            <div class="gallery">
+                <figure class="gallery_item item1">
+                    <img src="img/space1.jpg" class="gallery_img">
+                </figure>
+                <figure class="gallery_item item2">
+                    <img src="img/space2.jpg" class="gallery_img">
+                </figure>
+                <figure class="gallery_item item3">
+                    <img src="img/space3.jpg" class="gallery_img">
+                </figure>
+                <figure class="gallery_item item4">
+                    <img src="img/space4.jpg" class="gallery_img">
+                </figure>
+            </div>
+        </section>
+        <!-- <section class="testimonials">
+            <h1>TESTIMONIALS</h1>
+            <div class="test1">
+                <img alt="test1">
+                <h3>Test1</h3>
+            </div>
+            <div class="test2">
+                <img alt="test2">
+                <h3>Test2</h3>
+            </div>
+            <div class="test3">
+                <img alt="test3">
+                <h3>Test3</h3>
+            </div>
+        </section> -->
+    </main>
+    <footer class="main-footer">
+        <nav>
+            <ul class="main-footer__links">
+                <li class="main-footer__link">
+                    <a href="#">Support</a>
+                </li>
+                <li class="main-footer__link">
+                    <a href="#">Terms of Use</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="shared.js"></script>
+</body>
+
+</html>

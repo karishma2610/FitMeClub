@@ -1,0 +1,233 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+}
+.main-header{
+    width: 100%;
+    background: #111211;
+    padding:13px 0px;
+    height:100px;
+    position:fixed;
+    margin:0;
+    top:0;
+    border-bottom:2px white solid;
+    box-sizing:border-box;
+    display:flex;
+    z-index:1;
+    align-items:center;
+    justify-content: space-around;
+    align-content:space-around;
+}
+.backdrop {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+}
+.register__title,
+.signin__title{
+    text-align: center;
+    font-size: 1.8rem;
+    color: #ff5454;
+}
+/* .register-modal{
+
+} */
+.sign-in-modal {
+    position: fixed;
+    display: none;
+    z-index: 200;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    background: white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+  .register-modal {
+    position: fixed;
+    border-radius:15px;
+    display: none;
+    z-index: 200;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    background: white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+.modal-register-form{
+    display:grid;
+    padding:1rem;
+    margin:auto;
+    width:30rem;
+    grid-auto-rows:2rem;
+    align-items:center;
+    justify-items:center;
+    /* grid-template-columns: 15rem auto; */
+    grid-row-gap: 0.5rem
+    
+}
+.modal-button{
+    padding:8px;
+    border:0px;
+    box-shadow:2px 2px 2px 2px rgba(197, 202, 198, 0.5);
+    /* display:inline-block; */
+    background:white;
+    color:rgb(74, 77, 74);
+    border-radius:10px;
+    font:inherit;
+    font-weight:bold;
+    cursor:pointer;
+}
+.modal-button:hover,
+.modal-button:active{
+background:rgb(74, 77, 74);
+color:white;
+}
+.modal-button:focus{
+outline-style:dotted;
+outline-color:lightblue;
+box-shadow:rgb(177, 177, 231);
+background:hsl(136, 47%, 70%);
+color:rgb(15, 14, 14);
+}
+.modal-signin-form{
+    display:grid;
+    padding:1rem;
+    margin:auto;
+    width:30rem;
+    grid-auto-rows:2rem;
+    align-items:center;
+    justify-items:center;
+    /* grid-template-columns: 15rem auto; */
+    grid-row-gap: 0.5rem;
+}
+.modal-signin-form input{
+    border-radius:7px;
+}
+.modal-signin-form input:focus{
+    outline: none;
+    background: #d8f3df;
+    border-color: #2ddf5c;
+}
+.modal-register-form input{
+    border-radius:7px;
+}
+.modal-register-form input:focus{
+    outline: none;
+    background: #d8f3df;
+    border-color: #2ddf5c;
+}
+.chbox{
+    grid-column: span 2;
+    align-items:center;
+}
+.modal-button{
+    grid-column: span 2;
+    width:30%;
+
+}
+.backdrop {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.main-header__brand img{
+    height:5.5rem;
+    border-radius:50%;
+    border: 0.5px solid rgb(241, 235, 235);
+
+}
+.main-header__brand img:hover{
+    box-shadow: 0 0 4px 2px rgb(245, 242, 242);
+}
+.navbar__item a {
+    text-decoration: none;
+    color: #f4f7f5;
+    font-weight: bold;
+    
+}
+.navbar__item{
+    /* display:inline-block; */
+    display:inline-flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    align-content: center;
+    list-style: none;
+    margin:0;
+    padding: 0 60px;
+}
+.nav_btn{
+        padding:8px;
+        border:0px;
+        box-shadow:2px 2px 2px 2px rgba(197, 202, 198, 0.5);
+        /* display:inline-block; */
+        background:white;
+        color:rgb(74, 77, 74);
+        border-radius:10px;
+        font:inherit;
+        font-weight:bold;
+        cursor:pointer;
+}
+.nav_btn:hover,
+.nav_btn:active{
+    background:rgb(74, 77, 74);
+    color:white;
+}
+.nav_btn:focus{
+    outline-style:dotted;
+    outline-color:lightblue;
+    box-shadow:rgb(177, 177, 231);
+    background:hsl(136, 47%, 70%);
+    color:rgb(15, 14, 14);
+}
+.navbar__item a:hover,
+.navbar__item a:active {
+    color: rgb(209, 202, 202);
+    border-bottom: 2px solid rgb(209, 202, 202);
+}
+.main-footer{
+    background:url(img/trainers-bg.jpg);
+    padding:32px;
+    
+}
+.main-footer__links{
+    padding:0;
+    list-style:none;
+    margin:0;
+    text-align:center;
+}
+.main-footer__link{
+    display:inline-block;
+    margin:0 16px;
+}
+.main-footer__link a{
+    color:black;
+    text-decoration:none;
+    font-size:20px;
+}
+.main-footer__link a:hover,
+.main-footer__link a:active{
+    color:rgb(31, 19, 19);
+    font-weight: bolder;
+    text-decoration: solid;
+    
+}
+.open {
+    display: block !important;
+}

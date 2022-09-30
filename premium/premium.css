@@ -1,0 +1,252 @@
+
+#section-img{
+    background: url('img/prem-desc.jpg.jpg') left 0% top 38%/cover no-repeat border-box;
+    width: 100%;
+    height: 528px;
+    background-size: cover;
+    /* padding: 43px; */
+    /* background-attachment: fixed; */
+    top:100px;
+    position:relative;
+    
+}
+.clear{
+    height:61px;
+
+}
+.clear h1{
+    color:white;
+}
+#section-img h1{
+    color:white;
+    position: relative;
+    top:90px;
+    text-align:center;
+    padding:207px 24px;
+    /* font-family: 'Ms Madi'; */
+    font-size:50px;
+    font-weight:bold;
+    margin-top:0;
+    
+}
+.plans{
+    background:url('../img/trainers-bg.jpg')
+
+}
+.plan__list{
+    display:flex;
+    width:100%;
+    height:300px;
+    justify-content:space-evenly;
+}
+.plan{
+    background:url('img/plan_bg.jpg') top 7px left -229px;
+    border:2px solid white;
+    color:white;
+    text-align:center;
+    vertical-align: middle;
+    width:279px;
+    position:relative;
+    top:-104px;
+    border-radius:15px;
+}
+.plan ul{
+    list-style:none;
+    text-align:center;
+    position:relative;
+    /* top:60px; */
+    right:20px;
+}
+.plan ul li{
+    padding:10px 10px;
+}
+.fitme{
+    position:relative;
+    top:15px;
+    font-size:30px;
+
+}
+.type{
+    position: relative;
+    top:20px;
+    font-size:40px;
+}
+.plan1{
+    right:-152px;
+
+}
+.plan3{
+    right:152px;
+}
+.plan:hover{
+    box-shadow: 0 0 4px 2px rgba(255, 255, 255);
+}
+.plan1:hover{
+    width:320px;
+    height:320px;
+    font-weight:bolder;
+
+}
+.plan2:hover{
+    box-shadow: 0 0 8px 4px rgba(255, 255, 255);
+    width:320px;
+    height:320px;
+    font-weight:bolder;
+}
+.plan3:hover{
+    width:320px;
+    height:320px;
+    font-weight:bolder;
+    
+}
+.free-trial{
+    text-align: center;
+    background:black;
+    color:white;
+    height:213px;
+    padding:15px;
+    
+}
+.free{
+    display:inline-block;
+    background: rgb(10, 2, 28);
+    height:213px;
+    vertical-align:middle;
+    border:1px solid white;
+    border-radius:10px;
+}
+.free:hover{
+    box-shadow: 0 0 4px 2px rgb(237, 235, 235);
+}
+/* .cleartop{
+    color:black;
+    margin-top:0;
+} */
+.sec{
+    background: url('../img/trainers-bg.jpg') left 0% top 38%/cover no-repeat border-box;
+    height:1100px;
+}
+.sec h6{
+    color:white;
+    margin-top:0;
+}
+.elite{
+    display:flex;
+    align-items: center;
+    background:black;
+    color:white;
+    width:600px;
+    border-radius:15px;
+    box-shadow: 0 0 4px 2px rgb(19, 18, 18);
+    height:330px;
+    text-align:center;
+}
+.elite:hover{
+    height:350px;
+    width:700px;
+    font-weight:bolder;
+    box-shadow: 0 0 8px 4px rgb(19, 18, 18);
+}
+.elite img{
+    border-radius:50%;
+    height:250px;
+    border:solid 1px black;
+    width:250px;
+    box-shadow: 0 0 4px 2px rgb(243, 239, 239);
+}
+.pro{
+    display:flex;
+    align-items: center;
+    justify-items: center;
+    background:black;
+    color:white;
+    width:600px;
+    border-radius:15px;
+    box-shadow: 0 0 4px 2px rgb(19, 18, 18);
+    height:330px;
+    float:right;
+    text-align:center;
+    
+}
+.pro:hover{
+    height:350px;
+    width:700px;
+    font-weight:bolder;
+    box-shadow: 0 0 8px 4px rgb(19, 18, 18);
+}
+.pro img{
+    border-radius:50%;
+    height:250px;
+    border:solid 1px black;
+    width:250px;
+    box-shadow: 0 0 4px 2px rgb(243, 239, 239);
+}
+.live{
+    display:flex;
+    align-items: center;
+    background:black;
+    color:white;
+    box-shadow: 0 0 4px 2px rgb(19, 18, 18);
+    width:600px;
+    border-radius:15px;
+    height:330px;
+    text-align:center;
+}
+.live:hover{
+    height:350px;
+    width:700px;
+    font-weight:bolder;
+    box-shadow: 0 0 8px 4px rgb(19, 18, 18);
+}
+.live img{
+    border-radius:50%;
+    border:solid 1px black;
+    height:250px;
+    width:250px;
+    box-shadow: 0 0 4px 2px rgb(243, 239, 239);
+}
+.elite-plan-list{
+    list-style: none;
+}
+.pro-plan-list{
+    list-style: none;
+}
+.live-plan-list{
+    list-style: none;
+}
+.clearfix{
+    clear:both;
+}
+.buy,.start, .learn{
+    padding:8px;
+    border:0px;
+    box-shadow:2px 2px 2px 2px rgba(197, 202, 198, 0.5);
+    background:white;
+    color:rgb(74, 77, 74);
+    border-radius:10px;
+    font:inherit;
+    font-weight:bold;
+    cursor:pointer;
+}
+.buy:active, .buy:hover, .start:active, .start:hover,
+.learn:active, .learn:hover{
+    background:rgb(74, 77, 74);
+    color:white;
+}
+.buy:focus, .learn:focus, .start:focus{
+    outline-style:dotted;
+    outline-color:lightblue;
+    box-shadow:rgb(177, 177, 231);
+    background:hsl(136, 47%, 70%);
+    color:rgb(15, 14, 14);
+}
+.name{
+    font-weight:bolder;
+    font-size:45px
+}
+.access{
+    font-weight:bold;
+    font-size:25px;
+}
+
+
